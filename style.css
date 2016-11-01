@@ -1,31 +1,124 @@
-html{
-  background-color: #EC008C;
-}
-
 @font-face {
     font-family: introBoldCaps;
     src: url(fonts/IntroBlackCapsRegular.otf) format("opentype");
 }
+@font-face {
+    font-family: introBookCaps;
+    src: url(fonts/IntroBookCapsRegular.otf) format("opentype");
+}
 
-*{
+* {
   color: white;
-  font-family: introBoldCaps;
+  font-family: introBookCaps;
+  line-height: 1.4;
 }
 
-body{
+html, body{
   margin: 0px;
-  padding: 20px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-size: 17px;
+  background-color: #EC008C;
 }
-
-p, h1, h2, .tagLine{
+.logobottom {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  right: 30px;
+  width: 70px;
+  bottom: 30px;
+  height: auto;
+  z-index: 1000;
+}
+.footer {
+  background: rgba(255, 242, 0, .7);
+}
+h2, h3, h4 {
+  font-size: 22px;
+}
+p, h1, h2, h3, .bar {
+  margin: 0px;
+  padding: 0px;
   -ms-transform: rotate(-10deg); /* IE 9 */
   -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
   transform: rotate(-10deg);
-  margin: 0px;
-  padding: 0px;
+  -webkit-font-smoothing: antialiased;
 }
 
-h1{
-  font-size: 200px;
+h2, h3, .bar {
+  color: #fff;
+  margin: 0 -60px;
+  padding: 15px 90px 13px;
+}
+
+h1 {
+  font-size: 25vw;
   color: #FFF200;
+  margin: 10px 0 -12vw -5vw;
+  font-family: introBoldCaps;
+}
+
+h2 {
+  background: #FFF200;
+  color: #EC008C;
+  font-family: introBoldCaps;
+}
+
+h3 {
+  background: #FDDA0E;
+  font-weight: normal;
+}
+h4 {
+  font-family: introBoldCaps;
+  margin: 20px 0 5px;
+  padding: 0;
+}
+.program .bar {
+   display: flex; 
+}
+.time {
+  display: inline-block;
+  width: 60px;
+  flex-shrink: 0;
+}
+.title {
+  display: inline-block;
+  font-family: introBoldCaps;
+}
+.speaker {
+  font-family: introBookCaps;
+  white-space: nowrap;
+}
+.bar {
+  background: #EC008C;
+}
+.bar3 {
+  background: #FBC21C;
+}
+.bar4 {
+  background: #F9AA2A;
+}
+.bar5 {
+  background: #F79138;
+}
+.bar6 {
+  background: #F57946;
+}
+.bar7 {
+  background: #F46154;
+}
+.bar8 {
+  background: #F24862;
+}
+.bar9 {
+  background: #F03070;
+}
+.bar10 {
+  background: #EE187E;
+}
+.bottom {
+  background: #FBC21C;
+  height: 30vw;
+  margin-top: -18vw;
 }
