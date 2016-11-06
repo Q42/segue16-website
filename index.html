@@ -1,43 +1,226 @@
+<!doctype html>
+<html ⚡ lang="en">
 <head>
+	<meta charset="utf-8">
 	<title>Segue16 - Design &amp; Tech Conference</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 	<meta name="description" content="A one-day, single track conference for mobile app designers, both aspiring and experienced. A full day on new mobile technologies that influence your design process. Learn about new and upcoming design related trends in iOS, Android, mobile web, accessibility, new navigation structures, responsive/adaptive app design, and new hardware (im)possibilities.">
+	<link rel="canonical" href="https://segueconf.nl">
+	<style amp-custom>
+	@font-face {
+	    font-family: introBoldCaps;
+	    src: url(/fonts/IntroBlackCapsRegular.otf) format("opentype");
+	}
+	@font-face {
+	    font-family: introBookCaps;
+	    src: url(/fonts/IntroBookCapsRegular.otf) format("opentype");
+	}
+
+	* {
+	  color: white;
+	  font-family: introBookCaps;
+	  line-height: 1.4;
+	}
+
+	html, body {
+	  margin: 0px;
+	  padding: 0px;
+	  overflow-x: hidden;
+	  font-size: 17px;
+	  background-color: #EC008C;
+	}
+	article {
+		overflow-x: hidden;
+	  background: linear-gradient(0deg, #FBC21C 300px, #EC008C);
+	  padding-bottom: 10vw;
+	}
+	.logobottom {
+	  position: relative;
+		width: 100vw;
+		height: 105px;
+	}
+	.logo {
+	  position: absolute;
+	  right: 30px;
+	  width: 70px;
+	  bottom: 30px;
+	  height: auto;
+	  z-index: 1000;
+	}
+	.footer {
+	  background: rgba(255, 242, 0, .7);
+	}
+	h2, h3, h4 {
+	  font-size: 22px;
+	}
+	p, h1, h2, h3, .bar {
+	  margin: 0px;
+	  padding: 0px;
+	  -ms-transform: rotate(-10deg);
+	  -webkit-transform: rotate(-10deg);
+	  transform: rotate(-10deg);
+	}
+
+	h2, h3, .bar {
+	  margin: 0 -60px;
+	  padding: 15px 90px 13px;
+	}
+	.bar {
+		color: #fff;
+	}
+	.bar.pad {
+		height: 1em;
+	}
+
+	h1 {
+	  font-size: 25vw;
+	  color: #FFF200;
+	  margin: 10px 0 -12vw -5vw;
+	  font-family: introBoldCaps;
+	}
+
+	h2 {
+	  background: #FFF200;
+	  color: #EC008C;
+	  font-family: introBoldCaps;
+	}
+
+	h3 {
+	  background: #FDDA0E;
+	  font-weight: normal;
+		color: #960059;
+	}
+	h3 a, h3 time {
+		color: #960059;
+	}
+	h4 {
+	  font-family: introBoldCaps;
+	  margin: 20px 0 5px;
+	  padding: 0;
+		color: #960059;
+	}
+	.about {
+		color: #960059;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+			Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+			"Segoe UI Symbol";
+	}
+	.program {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.program .bar {
+	   display: flex;
+	}
+	.program time {
+	  display: inline-block;
+	  width: 60px;
+	  flex-shrink: 0;
+	}
+	.title {
+	  display: inline-block;
+		font-family: introBookCaps;
+	}
+	.title b {
+		font-family: introBoldCaps;
+	}
+	.bar {
+	  background: #EC008C;
+	}
+	.bar3 {
+	  background: #FBC21C;
+	}
+	.bar4 {
+	  background: #F9AA2A;
+	}
+	.bar5 {
+	  background: #F79138;
+	}
+	.bar5.a11y { background: #b26200; }
+	.bar6 {
+	  background: #F57946;
+	}
+	.bar7 {
+	  background: #F46154;
+	}
+	.bar8 {
+	  background: #F24862;
+	}
+	.bar9 {
+	  background: #F03070;
+	}
+	.bar10 {
+	  background: #EE187E;
+	}
+	</style>
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Event",
+			"name": "Segue16",
+			"organizer": "Q42",
+			"startDate": "2016-11-11T10:00",
+			"location": {
+				"@type": "Place",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Amsterdam",
+					"postalCode": "1056 AB",
+					"streetAddress": "Doctor Jan van Breemenstraat 1"
+				}
+			},
+			"description": "A one-day, single track conference for mobile app designers, both aspiring and experienced. A full day on new mobile technologies that influence your design process. Learn about new and upcoming design related trends in iOS, Android, mobile web, accessibility, new navigation structures, responsive/adaptive app design, and new hardware (im)possibilities."
+		}
+	</script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+	<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 </head>
 <body>
-	<h1>Segue16</h1>
-	<h2>Design &amp; Tech Conference</h2>
-	<h3>11 november 2016 - <a href="https://www.google.nl/maps/place/Doctor+Jan+van+Breemenstraat+1,+1056+AB+Amsterdam" target="_blank">de school, amsterdam</a></h3>
-	<div class="bar bar3"><h4>About Segue16</h4>A one-day, single track conference for mobile app designers, both aspiring and experienced. A full day on new mobile technologies that influence your design process. Learn about new and upcoming design related trends in iOS, Android, mobile web, accessibility, new navigation structures, responsive/adaptive app design, and new hardware (im)possibilities.</div>
-	<div class="bar bar4"><h4>Program</h4></div>
-	<div class="program">
-		<div class="bar bar5"> <div class="time">09:30</div> <div class="title">Doors open</div></div>
-		<div class="bar bar6"> <div class="time">10:00</div> <div class="title">Opening <span class="speaker">- Taco Ekkel</span></div></div>
-		<div class="bar bar7"> <div class="time">10:15</div> <div class="title">Think Different: Android vs iOS design approaches <span class="speaker">- Thijs Suijten</span></div></div>
-		<div class="bar bar8"> <div class="time">10:40</div> <div class="title">From Sketch to Xcode <span class="speaker">- Tom Lokhorst</span></div></div>
-		<div class="bar bar9"> <div class="time">11:25</div> <div class="title">Coffee Break</div></div>
-		<div class="bar bar10"><div class="time">11:55</div> <div class="title">Mobile navigation concepts <span class="speaker">- Bram Stege</span></div></div>
-		<div class="bar">      <div class="time">12:20</div> <div class="title">What's new in Android and iOS <span class="speaker">- Mathijs Kadijk</span></div></div>
-		<div class="bar">      <div class="time">12:45</div> <div class="title">Designing for sensors and connected devices <span class="speaker">- Jimmy Aupperlee</span></div></div>
-		<div class="bar">      <div class="time">13:10</div> <div class="title">Lunch</div></div>
-		<div class="bar">      <div class="time">14:00</div> <div class="title">Panel discussion: How to keep your team collaborating, happy and productive <span class="speaker">- Holly Habstritt Gaal</span></div></div>
-		<div class="bar">      <div class="time">14:40</div> <div class="title">Inclusive design for mobile <span class="speaker">- Johan Huijkman</span></div></div>
-		<div class="bar">      <div class="time">15:05</div> <div class="title">Making sense: Designing with haptics <span class="speaker">- Guido Bouman</span></div></div>
-		<div class="bar">      <div class="time">15:10</div> <div class="title">Near, far, wherever you are <span class="speaker">- Jeroen Gijsman</span></div></div>
-		<div class="bar">      <div class="time">15:15</div> <div class="title">Designing for Apple Watch <span class="speaker">- Mathijs Kadijk</span></div></div>
-		<div class="bar">      <div class="time">15:20</div> <div class="title">Lemonade Break</div></div>
-		<div class="bar">      <div class="time">15:40</div> <div class="title">Alternatives for native apps: the status quo <span class="speaker">- Roelf-Jan de Vries</span></div></div>
-		<div class="bar">      <div class="time">16:05</div> <div class="title">The Artist as Critic <span class="speaker">- Jasper Hauser</span></div></div>
-		<div class="bar">      <div class="time">16:50</div> <div class="title">Close <span class="speaker">- Taco Ekkel</span></div></div>
-		<div class="bar">      <div class="time">17:00</div> <div class="title">Drinks</div></div>
-	</div>
+	<article>
+		<h1>Segue16</h1>
+		<h2>Design &amp; Tech Conference</h2>
+		<h3><time>11 november 2016</time> - <a href="https://www.google.nl/maps/place/Doctor+Jan+van+Breemenstraat+1,+1056+AB+Amsterdam">de school, amsterdam</a></h3>
+		<div class="bar bar3 about"><h4>About Segue16</h4>A one-day, single track conference for mobile app designers, both aspiring and experienced. A full day on new mobile technologies that influence your design process. Learn about new and upcoming design related trends in iOS, Android, mobile web, accessibility, new navigation structures, responsive/adaptive app design, and new hardware (im)possibilities.</div>
+		<div class="bar bar4"><h4>Program</h4></div>
+		<ol class="program">
+			<li class="bar bar5"> <time>09:30</time> <div class="title"><b>Doors open</b></div></li>
+			<li class="bar bar6"> <time>10:00</time> <div class="title"><b>Opening</b> &mdash; Taco Ekkel</div></li>
+			<li class="bar bar7"> <time>10:15</time> <div class="title"><b>Think Different: Android vs iOS design approaches</b> &mdash; Thijs Suijten</div></li>
+			<li class="bar bar8"> <time>10:40</time> <div class="title"><b>From Sketch to Xcode</b> &mdash; Tom Lokhorst</div></li>
+			<li class="bar bar9"> <time>11:25</time> <div class="title"><b>Coffee Break</b></div></li>
+			<li class="bar bar10"><time>11:55</time> <div class="title"><b>Mobile navigation concepts</b> &mdash; Bram Stege</div></li>
+			<li class="bar">      <time>12:20</time> <div class="title"><b>What's new in Android and iOS</b> &mdash; Mathijs Kadijk</div></li>
+			<li class="bar">      <time>12:45</time> <div class="title"><b>Designing for sensors and connected devices</b> &mdash; Jimmy Aupperlee</div></li>
+			<li class="bar">      <time>13:10</time> <div class="title"><b>Lunch</b></div></li>
+			<li class="bar">      <time>14:00</time> <div class="title"><b>Panel discussion: How to keep your team collaborating, happy and productive</b> &mdash; Holly Habstritt Gaal</div></li>
+			<li class="bar">      <time>14:40</time> <div class="title"><b>Inclusive design for mobile</b> &mdash; Johan Huijkman</div></li>
+			<li class="bar">      <time>15:05</time> <div class="title"><b>Making sense: Designing with haptics</b> &mdash; Guido Bouman</div></li>
+			<li class="bar">      <time>15:10</time> <div class="title"><b>Near, far, wherever you are</b> &mdash; Jeroen Gijsman</div></li>
+			<li class="bar">      <time>15:15</time> <div class="title"><b>Designing for Apple Watch</b> &mdash; Mathijs Kadijk</div></li>
+			<li class="bar">      <time>15:20</time> <div class="title"><b>Lemonade Break</b></div></li>
+			<li class="bar">      <time>15:40</time> <div class="title"><b>Alternatives for native apps: the status quo</b> &mdash; Roelf-Jan de Vries</div></li>
+			<li class="bar">      <time>16:05</time> <div class="title"><b>The Artist as Critic</b> &mdash; Jasper Hauser</div></li>
+			<li class="bar">      <time>16:50</time> <div class="title"><b>Close</b> &mdash; Taco Ekkel</div></li>
+			<li class="bar">      <time>17:00</time> <div class="title"><b>Drinks</b></div></li>
+		</ol>
 
-	<div class="bar bar10">&nbsp;</div>
-	<div class="bar bar9">&nbsp;</div>
-	<div class="bar bar8">&nbsp;</div>
-	<div class="bar bar7"><a href="https://twitter.com/search?q=%23segue16" target="_blank">#Segue16</a></div>
-	<div class="bar bar6">&nbsp;</div>
-	<div class="bar bar5">&nbsp;</div>
-	<div class="bar bar4">&nbsp;</div>
-	<div class="bottom"></div>
-	<div class="logobottom"><img class="logo" src="http://logo.q42.com/q42-logo-white.svg" /></div>
+		<div class="bar bar10 pad"></div>
+		<div class="bar bar9 pad"></div>
+		<div class="bar bar8 pad"></div>
+		<div class="bar bar7 pad"><a href="https://twitter.com/search?q=%23segue16">#Segue16</a></div>
+		<div class="bar bar6 pad"></div>
+		<div class="bar bar5 pad"></div>
+		<div class="bar bar4 pad"></div>
+		<div class="logobottom">
+			<a href="https://www.q42.com" class="logo"><amp-img src="https://storage.googleapis.com/static.q42.nl/images/q42-logo-white.png" alt="Q42" height="105" width="70"></a>
+		</div>
+	</article>
+	<amp-install-serviceworker
+		src="/sw.js"
+		data-iframe-src="/sw.html"
+		layout="nodisplay">
+	</amp-install-serviceworker>
 </body>
+</html>
