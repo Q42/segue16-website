@@ -1,5 +1,5 @@
 
-importScripts('/node_modules/sw-toolbox/sw-toolbox.js');
+importScripts('/sw-toolbox.js');
 
 const config = {};
 
